@@ -6,7 +6,7 @@
     padding: 10px 15px;
     border-radius: 1px;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 17px;
     text-transform: uppercase;
     color: white;
     background: #315efb;
@@ -23,8 +23,20 @@
     margin-right: 10px;
   }
 
+  .div {
+    padding: 5px;
+  }
+
   .btn-icon_01 {
-    width: 15px;
-    height: 15px;
-    font-size: 15px;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    background: url(./img/off.svg) no-repeat ;
+  }
+
+  .btn-icon_02 {
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    background: url(./img/on.svg) no-repeat;
   }

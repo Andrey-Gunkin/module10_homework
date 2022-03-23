@@ -4,6 +4,6 @@
 const btn = document.querySelector('.j-btn');
 
 btn.addEventListener('click', () => {
-    let div = document.querySelector('.div')
+    let div = document.querySelector('.div');
     div.classList.toggle('btn-icon_02');
 })

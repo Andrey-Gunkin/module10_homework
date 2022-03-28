@@ -54,6 +54,8 @@ function writeToScreenGeo(latitude, longitude) {
     geo.textContent = 'Мое местоположение';
     geo.className = 'right';
     geo.style.display = 'block';
+    geo.style.color= '#5374ec';
+    geo.style.background= '#a2add6';
     output.appendChild(geo);
 }
 

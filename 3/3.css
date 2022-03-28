@@ -1,3 +1,9 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .request {
     display: flex;
 }
@@ -17,12 +23,14 @@ input {
     font-size: 12px;
     line-height: 15px;
     color: white;
-    background: #315efb;
+    background: #5569b5;
     transition: 0.3s;
+    border-radius: 5px;
 }
+
 input::-webkit-input-placeholder {
     color: white;
-   } 
+}
 
 .btn {
     padding: 0;
@@ -32,27 +40,55 @@ input::-webkit-input-placeholder {
     -webkit-tap-highlight-color: transparent;
     box-shadow: none;
     cursor: pointer;
-    
     display: flex;
     margin: 5px 10px;
     padding: 10px 15px;
-    border-radius: 1px;
+    border-radius: 5px;
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
     color: white;
-    background: #315efb;
+    background: #5569b5;
     transition: 0.3s;
-  }
-  
-  .btn:hover {
-    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
-    transform: scale(1.05);
-  }
+}
 
-  .output {
-      margin: 15px 0 0 10px;
-      width: 635px;
-      height: 300px;
-      border: #315efb .5px solid;
-  }
+.btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141, 150, 178, .3);
+    transform: scale(1.05);
+}
+
+.output {
+
+    width: 635px;
+    min-height: 300px;
+    border: #315efb .5px solid;
+    border-radius: 20px;
+}
+
+.right {
+    text-align: end;
+    margin: 15px 20px 5px 100px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.left {
+    margin: 15px 100px 5px 20px;
+    padding-top: 20px;
+    padding: 10px;
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 10px;
+}
+
+.error {
+    background-color: crimson;
+    color: white;
+    margin: 5px 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
